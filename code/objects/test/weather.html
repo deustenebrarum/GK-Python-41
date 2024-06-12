@@ -1,0 +1,20 @@
+<script src="https://api.openweathermap.org/data/2.5/weather?q=London&appid=ВАШ_КЛЮЧЬ_API"></script>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документ</title>
+</head>
+<body>
+    <div id="temperature"></div>
+    <script>
+        fetch('https://api.openweathermap.org/data/2.5/weather?q=London&appid=asgasgas')
+            .then(response => response.json())
+            .then(data => {
+                const temperature = document.getElementById('temperature');
+                temperature.textContent = 'Температура: ' + data.main.temp + '°C';
+            });
+    </script>
+</body>
+</html>

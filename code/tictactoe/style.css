@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: repeat(3, 30vh);
+    grid-template-rows: repeat(3, 30vh);
+    justify-content: center;
+    gap: 3vh;
+}
+
+.field__cell {
+    border: 5px solid black;
+    border-radius: 25px;
+    font-size: 25vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

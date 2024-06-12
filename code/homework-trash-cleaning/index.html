@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash Field</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="count-form-container">
+        <form class="count-form">
+            <label class="count-form__label" for="count">
+                Введите желаемое количество мусора
+            </label>
+            <input 
+                id="count"
+                class="count-form__input" 
+                type="number" 
+                min="10" max="100" 
+                value="10"
+            />
+            <button 
+                type="submit" class="count-form__button"
+            >
+                Начать
+            </button>
+        </form>
+    </div>
+    <main class="field">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function add(x, y) {
+            return x + y;
+        }
+        // console.log(add(1,4)) выведет 5
+
+        const array = [1, 2, 3, 4, 5];
+
+        function sum(array) {
+            let _sum = 0;
+            for (let i = 0; i < array.length; i++) {
+                _sum += array[i];
+            }
+
+            return _sum;
+        }
+
+        console.log(sum(array)); // должно вывести 15
+        console.log(array.reduce(function (currentSum, item) { 
+            return currentSum + item 
+        }, 0))
+
+        // напишите функцию getEvens - получить четные числа
+        function getEvens(array) {
+            let evens = [];
+            for (let i = 0; i < array.length; i++) {
+                if (array[i] % 2 == 0) {
+                    evens.push(array[i]);
+                }
+            }
+
+            return evens;
+        }
+
+        console.log(getEvens(array)); // [2, 4]
+        console.log(array.filter(function (item) { 
+            return item % 2 == 0;
+        }));
+
+        // напишите функцию range - получить массив целых
+        // чисел в заданном диапазоне(двумя числами) не включая правую границу
+        function range(start, end) {
+            const result = [];
+
+            for (let i = start; i < end; i++) {
+                result.push(i);
+            }
+
+            return result;
+        }
+        
+        console.log(range(1, 5)); // [1, 2, 3, 4]
+        console.log(Array(5 - 1).fill(0).map(function (_, i) {
+            return i + 1;
+        }));
+
+        // напишите функцию sumRange - сумма чисел в диапазоне
+        // задумайтесь, может у нас уже есть всё, чтобы решить эту задачу
+        function sumRange(start, end) {
+            return sum(range(start, end));
+        }
+
+        console.log(sumRange(1, 6)) // 15
+        console.log(range(1, 6).reduce(function (currentSum, item) {
+            return currentSum + item
+        }))
+
+        function minIndex(array, from, to) {
+            let minIndex = from;
+            for (let j = from; j < to; j++) {
+                if (array[minIndex] > array[j]) {
+                    minIndex = j;
+                }
+            }
+
+            return minIndex;
+        }
+        // напишите функцию sort - сортировка массива по возрастанию
+        function sort(array) {
+            for (let i = 0; i < array.length - 1; i++) {
+                _minIndex = minIndex(array, i, array.length);
+
+                const temp = array[i];
+                array[i] = array[_minIndex];
+                array[_minIndex] = temp;
+            }
+        }
+        
+        const array2 = [5, 6, 7, 2, 6, 1];
+        sort(array2);
+        console.log(array2); // 1 2 5 6 6 7
+
+        const questions = [
+            {
+                question: 'Who is developer of facebook?',
+                answer: 'Mark Zuckerberg'
+            }, {
+                question: 'Who is developer of amazon?',
+                answer: 'Jeff Bezos'
+            }, {
+                question: 'Who is developer of google?',
+                answer: 'Sergey Brin'
+            }, {
+                question: 'Who is developer of Russia?',
+                answer: 'Alexey Ponomarev'
+            }, {
+                question: 'Who is developer of the World?',
+                answer: 'Bill Gates'
+            }
+        ];
+
+    </script>
+</body>
+
+</html>
