@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a5521fd89848864c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Проверочная работа.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a9ce377105d5f084",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Взаимодействие со страницей.md",
+                "file": "Проверочная работа.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Взаимодействие со страницей.md",
+                "file": "Проверочная работа.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Взаимодействие со страницей.md"
+                "file": "Проверочная работа.md"
               }
             }
           }
@@ -146,20 +160,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7dddc0255674128",
+  "active": "a5521fd89848864c",
   "lastOpenFiles": [
+    "code/randomMovingObjects/style.css",
+    "code/randomMovingObjects/script.js",
+    "code/randomMovingObjects/index.html",
+    "code/randomMovingObjects",
+    "code/randomColorsGrid/style.css",
+    "code/randomColorsGrid/script.js",
+    "code/randomColorsGrid/index.html",
+    "code/randomColorsGrid",
+    "Взаимодействие со страницей.md",
+    "Проверочная работа.md",
     "code/homework-trash-cleaning/script.js",
     "code/homework-trash-cleaning/style.css",
     "code/homework-trash-cleaning/index.html",
-    "code/homework-trash-cleaning",
-    "code/hw/style.css",
-    "code/hw/script.js",
-    "code/hw/index.html",
-    "code/hw",
-    "code/tictactoe/hw/style.css",
-    "code/tictactoe/hw/script.js",
-    "code/tictactoe/hw/index.html",
-    "Взаимодействие со страницей.md",
     "Массивы.md",
     "Функции.md",
     "Основы.md",

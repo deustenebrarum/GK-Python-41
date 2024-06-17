@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+}
+
+.cell {
+}

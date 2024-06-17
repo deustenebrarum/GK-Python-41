@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(85, 85, 85);
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.object {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(165, 83, 161);
+    border-radius: 50%;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
