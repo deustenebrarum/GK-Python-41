@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.querySelector('.container');
 
-    const width = 256;
-    const height = 128;
+    const width = 1024;
+    const height = 512;
 
     container.style.gridTemplateColumns = `repeat(${width}, 1fr)`;
     container.style.gridTemplateRows = `repeat(${height}, 1fr)`;

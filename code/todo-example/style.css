@@ -1,0 +1,19 @@
+:root {
+    font-size: 24px;
+}
+
+.users-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.users-list a {
+    text-decoration: none;
+    height: 33vh;
+    overflow: hidden;
+}
+
+.users-list a:hover {
+    background-color: rgb(239, 239, 239);
+} 

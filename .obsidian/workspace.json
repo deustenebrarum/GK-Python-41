@@ -25,9 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Проверочная работа.md",
+                "file": "Взаимодействие с сервером.md",
                 "mode": "preview",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "6a9e837242c89737",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "схема-маршрутизации.png"
               }
             }
           }
@@ -82,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a9ce377105d5f084",
@@ -99,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Проверочная работа.md",
+                "file": "Взаимодействие с сервером.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Проверочная работа.md",
+                "file": "Взаимодействие с сервером.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Проверочная работа.md"
+                "file": "Взаимодействие с сервером.md"
               }
             }
           }
@@ -162,19 +171,20 @@
   },
   "active": "a5521fd89848864c",
   "lastOpenFiles": [
-    "code/randomMovingObjects/style.css",
-    "code/randomMovingObjects/script.js",
-    "code/randomMovingObjects/index.html",
-    "code/randomMovingObjects",
-    "code/randomColorsGrid/style.css",
-    "code/randomColorsGrid/script.js",
-    "code/randomColorsGrid/index.html",
-    "code/randomColorsGrid",
     "Взаимодействие со страницей.md",
+    "схема-маршрутизации.png",
+    "Взаимодействие с сервером.md",
+    "code/todo-example/user.html",
+    "code/todo-example/scripts/userPage.js",
+    "code/todo-example/users.html",
+    "code/users.html",
+    "code/todo-example/style.css",
+    "code/todo-example/scripts/usersPage.js",
+    "code/todo-example/scripts/users_page.js",
+    "code/todo-example/scripts",
+    "code/todo-example/index.html",
+    "code/todo-example",
     "Проверочная работа.md",
-    "code/homework-trash-cleaning/script.js",
-    "code/homework-trash-cleaning/style.css",
-    "code/homework-trash-cleaning/index.html",
     "Массивы.md",
     "Функции.md",
     "Основы.md",

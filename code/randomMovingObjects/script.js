@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 object.direction.x *= -1;
                 if (object.speed < 50) {
                     object.speed += 1;
-                }
+                } 
             }
             if (object.position.y > container.offsetHeight - object.element.offsetHeight || object.position.y < 0) {
                 object.direction.y *= -1;
