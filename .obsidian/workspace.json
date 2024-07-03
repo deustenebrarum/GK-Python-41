@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Условные конструкции.md",
+                "file": "python/Циклы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5796ce374301975a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Шпаргалка по английскому.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/Условные конструкции.md",
+                "file": "Шпаргалка по английскому.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/Условные конструкции.md",
+                "file": "Шпаргалка по английскому.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/Условные конструкции.md"
+                "file": "Шпаргалка по английскому.md"
               }
             }
           }
@@ -146,8 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ac9d275f2f7adb7",
+  "active": "5796ce374301975a",
   "lastOpenFiles": [
+    "python/basics/factorial.py",
+    "python/Циклы.md",
+    "Шпаргалка по английскому.md",
+    "python/basics/while.py",
+    "python/Условные конструкции.md",
     "python/basics/conditional_math.py",
     "python/basics/minmax.py"
   ]
